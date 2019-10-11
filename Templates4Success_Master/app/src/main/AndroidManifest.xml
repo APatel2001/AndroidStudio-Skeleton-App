@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EssayType"></activity>
+        <activity android:name=".EssayInputs"></activity>
+        <activity
+            android:name=".ui.login.Inputs"
+            android:label="@string/title_activity_inputs" />
+        <activity android:name=".EssayType" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

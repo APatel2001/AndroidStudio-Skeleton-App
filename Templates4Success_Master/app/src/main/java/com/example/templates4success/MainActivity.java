@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, EssayType.class);
         final EditText enterEmail = (EditText) findViewById(R.id.enterEmail);
         final EditText enterPassword = (EditText) findViewById(R.id.enterPassword);
-        String emailAddress = enterEmail.getText().toString();
-        String password = enterPassword.getText().toString();
-        String correctEmail = "avidpatel1@gmail.com";
-        String correctPassword = "college";
+        //String emailAddress = enterEmail.getText().toString();
+        //String password = enterPassword.getText().toString();
+        //String correctEmail = "avidpatel1@gmail.com";
+        //String correctPassword = "college";
         /*
         if (emailAddress == correctEmail && password == correctPassword) {
 

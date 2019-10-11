@@ -13,4 +13,15 @@
     <string name="college_e">College E</string>
     <string name="college_f">College F</string>
     <string name="college_g">College G</string>
+    <string name="title_input_list">Inputs</string>
+    <string name="title_input_detail">Input Detail</string>
+    <string name="title_activity_inputs">Inputs</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
