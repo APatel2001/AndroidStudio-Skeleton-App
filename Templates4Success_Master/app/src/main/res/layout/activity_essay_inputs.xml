@@ -6,139 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".EssayInputs">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Skills you can use in the future"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="670dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Revelation"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="601dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Personal story related to passion"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="532dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Your passion"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="468dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Your accomplishments in the club/organization"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="403dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Your responsibilities in the club/organization"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="343dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Club/organization you are invlolved with"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="282dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="School name"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="223dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Another adjective"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Adjective to describe yourself"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="118dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="62dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Your name" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="374dp"
-        android:layout_height="35dp"
-        android:text="Please enter some information about yourself"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.0" />
-
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="left" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="0dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="745dp" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
@@ -151,5 +23,114 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="106dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="Please enter some information about your interests and strengths."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/yourname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adjective about yourself"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Another adjective"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="School's name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Club/orgnaization you are involved with"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your responsibilities in the club/organization"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your achievements in the club/organization"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your passion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Personal story related to your passion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your revelation"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Acquired skills you can use in the future"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/enterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="enterButtonClick"
+            android:text="Enter" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
