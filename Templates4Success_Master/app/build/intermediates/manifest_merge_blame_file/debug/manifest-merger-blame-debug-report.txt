@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.templates4success"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.templates4success.EssayOutputs" />
+20-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:12:9-59
+20-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:12:19-47
+21        <activity android:name="com.example.templates4success.Settings" />
+21-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:13:9-46
+21-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:13:19-43
+22        <activity android:name="com.example.templates4success.EssayInputs" />
+22-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:14:9-49
+22-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:14:19-46
+23        <activity
+23-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:15:9-17:61
+24            android:name="com.example.templates4success.ui.login.Inputs"
+24-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:16:13-44
+25            android:label="@string/title_activity_inputs" />
+25-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:17:13-58
+26        <activity android:name="com.example.templates4success.EssayType" />
+26-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:18:9-47
+26-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:18:19-44
+27        <activity android:name="com.example.templates4success.MainActivity" >
+27-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:19:9-25:20
+27-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:21:17-69
+29-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:23:17-77
+31-->/Users/avipatel/Desktop/AndroidStudio-Skeleton-App-master/Templates4Success_Master/app/src/main/AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+37            android:authorities="com.example.templates4success.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/avipatel/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>
