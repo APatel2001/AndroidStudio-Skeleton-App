@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EssayOutputs">
+    tools:context=".EssayOutputs"
+    android:background="@color/colorBackground">
 
 
     <FrameLayout
@@ -22,7 +23,8 @@
             android:layout_marginTop="300px"
             android:layout_marginRight="70px"
             android:layout_marginBottom="70px"
-            android:text="Hello, I’m _________. I am a ______ and ________ student at _______________. I am an avid member of ________. My responsibilities include _____________________. Because of my hard work, I have been ________  . I am also very passionate in ___________. Once, I ________________________________________. I learned that I am very ___________ and that I can ___________." />
+            android:text="Hello, I’m _________. I am a ______ and ________ student at _______________. I am an avid member of ________. My responsibilities include _____________________. Because of my hard work, I have been ________  . I am also very passionate in ___________. Once, I ________________________________________. I learned that I am very ___________ and that I can ___________."
+            android:textColor="@color/colorText"/>
 
         <Button
             android:id="@+id/settings_outputs"

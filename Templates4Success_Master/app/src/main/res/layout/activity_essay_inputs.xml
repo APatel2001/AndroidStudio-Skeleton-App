@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EssayInputs">
+    tools:context=".EssayInputs"
+    android:background="@color/colorBackground"
+    android:id="@+id/background_view">
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -43,7 +45,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="76dp"
                 android:text="Please enter some information about your interests and strengths."
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/yourname"
@@ -51,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Your name"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/adjective1"
@@ -59,7 +63,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Adjective about yourself"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/adjective2"
@@ -67,7 +72,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Another adjective"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/school"
@@ -75,7 +81,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="School's name"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/club"
@@ -83,7 +90,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Club/orgnaization you are involved with"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/responsibilities"
@@ -91,7 +99,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Your responsibilities in the club/organization"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/achievements"
@@ -99,7 +108,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Your achievements in the club/organization"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/passion"
@@ -107,7 +117,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Your passion"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/story"
@@ -115,7 +126,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Personal story related to your passion"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/revelation"
@@ -123,7 +135,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Your revelation"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/skills"
@@ -131,7 +144,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Acquired skills you can use in the future"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/colorText"/>
 
             <Button
                 android:id="@+id/enterButton"

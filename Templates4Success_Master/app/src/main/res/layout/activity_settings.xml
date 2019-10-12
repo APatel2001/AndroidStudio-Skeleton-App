@@ -5,23 +5,25 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:orientation="vertical"
-    tools:context=".Settings">
+    tools:context=".Settings"
+    android:background="@color/colorBackground">>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Settings"
-        android:textSize="22sp"/>
+        android:textSize="22sp"
+        android:textColor="?attr/primaryTitleColor"/>
 
     <Switch
         android:id="@+id/switch_1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Night Mode" />
+        android:text="Night Mode"/>
     <Switch
         android:id="@+id/switch_2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Increase Text Size" />
+        android:text="Increase Text Size"/>
 
 
 
