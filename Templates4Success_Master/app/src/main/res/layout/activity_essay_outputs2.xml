@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EssayOutputs">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:layout_gravity="top">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="352dp"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="300px"
+            android:layout_marginRight="70px"
+            android:layout_marginBottom="70px"
+            android:text="Hello, I’m Avi Patel. I am a hardworking and persevering student at Dublin High School. I am an avid member of Tri-Valley Youth Expo. My responsibilities include heading a small communications team. Because of my hard work, I have been promoted to an officer position. I am also very passionate in computer programming. Once, I ran on the roof of dublin high school. I learned that I am very troublesome individual and that I can get in trouble for misbehavior. " />
+
+        <Button
+            android:id="@+id/settings_outputs"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:layout_gravity="right"
+            android:onClick="settings"
+            android:text="@string/title_activity_settings" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

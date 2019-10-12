@@ -17,4 +17,8 @@ public class EssayType extends AppCompatActivity {
         Intent i = new Intent(this, EssayInputs.class);
         startActivity(i);
     }
+    public void settings(View view) {
+        Intent i = new Intent(this, Settings.class);
+        startActivity(i);
+    }
 }

@@ -36,12 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/RecLetter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="recButtonClick"
-            android:text="@string/A" />
+
 
         <TextView
             android:id="@+id/textView5"
@@ -54,6 +49,20 @@
             android:layout_height="wrap_content"
             android:onClick="collegeButtonClick"
             android:text="College Essay" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="126dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="settings"
+            android:text="@string/title_activity_settings"/>
+
 
 
     </LinearLayout>
