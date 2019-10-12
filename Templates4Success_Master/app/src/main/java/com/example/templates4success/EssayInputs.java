@@ -8,9 +8,22 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Button;
 
-
+/**
+ * Inputs for essay
+ * @author Avi Patel
+ * @author Josh Koh
+ * @author Tariq Rahman
+ * @author Sujal Nahata
+ *
+ * @version 10/11/19
+ */
 public class EssayInputs extends AppCompatActivity {
 
+
+    /**
+     * Creates activty upon opening
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +31,10 @@ public class EssayInputs extends AppCompatActivity {
 
 
     }
+
+    /**
+     * Deals with the intents for going to the written essay. Also uses extras to send input from this activity to the other for concatination
+     */
 
     public void enterButtonClick(View view) {
         Intent i = new Intent(this, EssayOutputs.class);
@@ -71,6 +88,11 @@ public class EssayInputs extends AppCompatActivity {
         i.putExtras(extras);
         startActivity(i);
     }
+
+    /**
+     * Opens settings
+     *
+     */
     public void settings(View view) {
         Intent i2 = new Intent(this, Settings.class);
         startActivity(i2);
