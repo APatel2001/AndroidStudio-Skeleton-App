@@ -3,18 +3,13 @@ package com.example.templates4success;
 import android.content.Intent;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Button;
-import android.widget.Switch;
-
 
 /**
- * Define inputs for essay
+ * Inputs for essay
  * @author Avi Patel
  * @author Josh Koh
  * @author Tariq Rahman
@@ -22,25 +17,24 @@ import android.widget.Switch;
  *
  * @version 10/11/19
  */
-
-
 public class EssayInputs extends AppCompatActivity {
 
+
     /**
-     * creates the activity upon entrance
+     * Creates activty upon opening
      *
      */
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_essay_inputs);
 
 
-
     }
 
+    /**
+     * Deals with the intents for going to the written essay. Also uses extras to send input from this activity to the other for concatination
+     */
 
     public void enterButtonClick(View view) {
         Intent i = new Intent(this, EssayOutputs.class);
@@ -94,6 +88,11 @@ public class EssayInputs extends AppCompatActivity {
         i.putExtras(extras);
         startActivity(i);
     }
+
+    /**
+     * Opens settings
+     *
+     */
     public void settings(View view) {
         Intent i2 = new Intent(this, Settings.class);
         startActivity(i2);
