@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         app:barrierDirection="left" />
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -138,6 +138,14 @@
                 android:layout_height="wrap_content"
                 android:onClick="enterButtonClick"
                 android:text="Enter" />
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:onClick="settings"
+                android:text="@string/title_activity_settings" />
         </LinearLayout>
     </ScrollView>
 

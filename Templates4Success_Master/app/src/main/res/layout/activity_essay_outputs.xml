@@ -24,23 +24,22 @@
         android:layout_height="2dp"
         android:hint="hint" />
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_gravity="top">
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/textView16"
             android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:text="Here's your personalized template."
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-        <TextView
-            android:id="@+id/yournameout"
-            android:layout_width="match_parent"
-            android:layout_height="172dp"
-            android:text="Hello, I’m _____name____. I am a ___word that describes you___ and ____another adjective____ student at ______school_________. I am an avid member of ____club or affilation____. My responsibilities include ___________what you do__________. Because of my hard work, _______accomplishment___________. I am also very passionate in _____your passion______. Once, I ___________________personal story_____________________. I learned that I am very ___________ and that I can ___________." />
-    </LinearLayout>
+            android:layout_height="407dp"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="300px"
+            android:layout_marginRight="70px"
+            android:layout_marginBottom="70px"
+            android:text="Hello, I’m Avi Patel. I am a hardworking and persevering student at Dublin High School. I am an avid member of Tri-Valley Youth Expo. My responsibilities include heading a small communications team. Because of my hard work, I have been promoted to an officer position. I am also very passionate in computer programming. Once, I ran on the roof of dublin high school. I learned that I am very troublesome individual and that I can get in trouble for misbehavior. "
+            android:textSize="22dp" />
+            android:text="Hello, I’m Avi Patel. I am a hardworking and persevering student at Dublin High School. I am an avid member of Tri-Valley Youth Expo. My responsibilities include heading a small communications team. Because of my hard work, I have been promoted to an officer position. I am also very passionate in computer programming. Once, I ran on the roof of dublin high school. I learned that I am very troublesome individual and that I can get in trouble for misbehavior. " />
+    </FrameLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
