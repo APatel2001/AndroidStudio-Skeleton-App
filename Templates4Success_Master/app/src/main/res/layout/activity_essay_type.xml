@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="99dp"
             android:gravity="center"
-            android:text="Select to write for a letter of recommendation or a college essay"
+            android:text="Select to write a college essay "
             android:textSize="22sp" />
 
         <TextView

@@ -15,14 +15,14 @@
         android:layout_gravity="top">
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/essay"
             android:layout_width="match_parent"
             android:layout_height="352dp"
             android:layout_marginLeft="70px"
             android:layout_marginTop="300px"
             android:layout_marginRight="70px"
             android:layout_marginBottom="70px"
-            android:text="Hello, I’m Avi Patel. I am a hardworking and persevering student at Dublin High School. I am an avid member of Tri-Valley Youth Expo. My responsibilities include heading a small communications team. Because of my hard work, I have been promoted to an officer position. I am also very passionate in computer programming. Once, I ran on the roof of dublin high school. I learned that I am very troublesome individual and that I can get in trouble for misbehavior. " />
+            android:text="Hello, I’m _________. I am a ______ and ________ student at _______________. I am an avid member of ________. My responsibilities include _____________________. Because of my hard work, I have been ________  . I am also very passionate in ___________. Once, I ________________________________________. I learned that I am very ___________ and that I can ___________." />
 
         <Button
             android:id="@+id/settings_outputs"
